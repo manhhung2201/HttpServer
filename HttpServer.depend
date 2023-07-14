@@ -1,0 +1,1123 @@
+# depslib dependency file v1.0
+1655865253 source:d:\lab\httpserver\httpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1655860219 d:\lab\httpserver\httpserver\cli.h
+	<cstdint>
+	<string>
+
+1655863844 source:d:\lab\httpserver\httpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1650541218 source:d:\lab\httpserver\httpserver\serverconfig.cpp
+	<cstring>
+	<iostream>
+	"serverconfig.h"
+
+1650538096 d:\lab\httpserver\httpserver\serverconfig.h
+	<string>
+	<unordered_map>
+
+1655865227 source:d:\lab\httpserver\httpserver\session.cpp
+	"session.h"
+
+1655864067 d:\lab\httpserver\httpserver\session.h
+	"tcpsocket.h"
+
+1655867369 d:\lab\httpserver\httpserver\tcpsocket.h
+	"socket.h"
+
+1655863816 d:\lab\httpserver\httpserver\socket.h
+	<string>
+	<exception>
+
+1655863956 source:d:\lab\httpserver\httpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1648538827 source:d:\lab\httpserver\httpserver\tcpclient.cpp
+	"tcpclient.h"
+	<iostream>
+	<fstream>
+
+1648538862 d:\lab\httpserver\httpserver\tcpclient.h
+	"tcpsocket.h"
+	<fstream>
+
+1655863995 source:d:\lab\httpserver\httpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1656733843 d:\lab\httpserver\httpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1655863736 d:\lab\httpserver\httpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1655864026 source:d:\lab\httpserver\httpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1655864041 source:d:\lab\httpserver\httpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1656733696 source:d:\lab\httpserver\httpserver\httpsession.cpp
+	<cstring>
+	<iostream>
+	"httpsession.h"
+
+1656733821 d:\lab\httpserver\httpserver\httpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+
+1656033384 d:\lab\httpserver\httpserver\servercli.h
+	"cli.h"
+	"httpserver.h"
+
+1656733861 d:\lab\httpserver\httpserver\httpserver.h
+	"tcpserver.h"
+	"httpsession.h"
+
+1585563645 source:d:\lab\httpserver\httpserver\random.cpp
+	"random.h"
+	<string>
+	<ctime>
+
+1585563685 d:\lab\httpserver\httpserver\random.h
+	<string>
+
+1655897280 source:d:\lab\httpserver\httpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1656733698 source:d:\lab\httpserver\httpserver\httpserver.cpp
+	<iostream>
+	<cstring>
+	<sstream>
+	"httpserver.h"
+	"random.h"
+
+1655865253 source:c:\users\never\desktop\httpserver\httpserver\httpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1655860219 c:\users\never\desktop\httpserver\httpserver\httpserver\cli.h
+	<cstdint>
+	<string>
+
+1658002949 source:c:\users\never\desktop\httpserver\httpserver\httpserver\httpserver.cpp
+	<iostream>
+	<cstring>
+	<sstream>
+	"httpserver.h"
+	"random.h"
+
+1656733861 c:\users\never\desktop\httpserver\httpserver\httpserver\httpserver.h
+	"tcpserver.h"
+	"httpsession.h"
+
+1656733843 c:\users\never\desktop\httpserver\httpserver\httpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1655863736 c:\users\never\desktop\httpserver\httpserver\httpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1655867369 c:\users\never\desktop\httpserver\httpserver\httpserver\tcpsocket.h
+	"socket.h"
+
+1655863816 c:\users\never\desktop\httpserver\httpserver\httpserver\socket.h
+	<string>
+	<exception>
+
+1655864067 c:\users\never\desktop\httpserver\httpserver\httpserver\session.h
+	"tcpsocket.h"
+
+1656733821 c:\users\never\desktop\httpserver\httpserver\httpserver\httpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+
+1585563685 c:\users\never\desktop\httpserver\httpserver\httpserver\random.h
+	<string>
+
+1655863844 source:c:\users\never\desktop\httpserver\httpserver\httpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1656033384 c:\users\never\desktop\httpserver\httpserver\httpserver\servercli.h
+	"cli.h"
+	"httpserver.h"
+
+1655897280 source:c:\users\never\desktop\httpserver\httpserver\httpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1655865227 source:c:\users\never\desktop\httpserver\httpserver\httpserver\session.cpp
+	"session.h"
+
+1655863956 source:c:\users\never\desktop\httpserver\httpserver\httpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1658002951 source:c:\users\never\desktop\httpserver\httpserver\httpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1655864026 source:c:\users\never\desktop\httpserver\httpserver\httpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1655864041 source:c:\users\never\desktop\httpserver\httpserver\httpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1658001973 source:c:\users\never\desktop\httpserver\httpserver\httpserver\httpsession.cpp
+	<cstring>
+	<iostream>
+	"httpsession.h"
+	<string>
+	<ctime>
+	<fstream>
+
+1655865253 source:c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1655860219 c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\cli.h
+	<cstdint>
+	<string>
+
+1658073872 source:c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\httpsession.cpp
+	<cstring>
+	<iostream>
+	"httpsession.h"
+	<string>
+	<ctime>
+	<fstream>
+
+1656733821 c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\httpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+
+1655863736 c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1655867369 c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\tcpsocket.h
+	"socket.h"
+
+1655863816 c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\socket.h
+	<string>
+	<exception>
+
+1655864067 c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\session.h
+	"tcpsocket.h"
+
+1655863844 source:c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1656033384 c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\servercli.h
+	"cli.h"
+	"httpserver.h"
+
+1656733861 c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\httpserver.h
+	"tcpserver.h"
+	"httpsession.h"
+
+1656733843 c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1655897280 source:c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1655865227 source:c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\session.cpp
+	"session.h"
+
+1655863956 source:c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1658002951 source:c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1655864026 source:c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1655864041 source:c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1658072408 source:c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\httpserver.cpp
+	<iostream>
+	<cstring>
+	<sstream>
+	"httpserver.h"
+	"random.h"
+
+1585563685 c:\users\lqt1109\onedrive\desktop\httpserver\httpserver\httpserver\random.h
+	<string>
+
+1655865253 source:c:\users\never\documents\httpserver\httpserver\httpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1655860219 c:\users\never\documents\httpserver\httpserver\httpserver\cli.h
+	<cstdint>
+	<string>
+
+1658072408 source:c:\users\never\documents\httpserver\httpserver\httpserver\httpserver.cpp
+	<iostream>
+	<cstring>
+	<sstream>
+	"httpserver.h"
+	"random.h"
+
+1656733861 c:\users\never\documents\httpserver\httpserver\httpserver\httpserver.h
+	"tcpserver.h"
+	"httpsession.h"
+
+1656733843 c:\users\never\documents\httpserver\httpserver\httpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1655863736 c:\users\never\documents\httpserver\httpserver\httpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1655867369 c:\users\never\documents\httpserver\httpserver\httpserver\tcpsocket.h
+	"socket.h"
+
+1655863816 c:\users\never\documents\httpserver\httpserver\httpserver\socket.h
+	<string>
+	<exception>
+
+1655864067 c:\users\never\documents\httpserver\httpserver\httpserver\session.h
+	"tcpsocket.h"
+
+1656733821 c:\users\never\documents\httpserver\httpserver\httpserver\httpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+
+1585563685 c:\users\never\documents\httpserver\httpserver\httpserver\random.h
+	<string>
+
+1655863844 source:c:\users\never\documents\httpserver\httpserver\httpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1656033384 c:\users\never\documents\httpserver\httpserver\httpserver\servercli.h
+	"cli.h"
+	"httpserver.h"
+
+1655897280 source:c:\users\never\documents\httpserver\httpserver\httpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1655865227 source:c:\users\never\documents\httpserver\httpserver\httpserver\session.cpp
+	"session.h"
+
+1655863956 source:c:\users\never\documents\httpserver\httpserver\httpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1658002951 source:c:\users\never\documents\httpserver\httpserver\httpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1655864026 source:c:\users\never\documents\httpserver\httpserver\httpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1655864041 source:c:\users\never\documents\httpserver\httpserver\httpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1658289672 source:c:\users\never\documents\httpserver\httpserver\httpserver\httpsession.cpp
+	<cstring>
+	<iostream>
+	"httpsession.h"
+	<string>
+	<ctime>
+	<fstream>
+
+1655865253 source:c:\users\never\desktop\new folder\httpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1655860219 c:\users\never\desktop\new folder\httpserver\cli.h
+	<cstdint>
+	<string>
+
+1658072408 source:c:\users\never\desktop\new folder\httpserver\httpserver.cpp
+	<iostream>
+	<cstring>
+	<sstream>
+	"httpserver.h"
+	"random.h"
+
+1656733861 c:\users\never\desktop\new folder\httpserver\httpserver.h
+	"tcpserver.h"
+	"httpsession.h"
+
+1656733843 c:\users\never\desktop\new folder\httpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1655863736 c:\users\never\desktop\new folder\httpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1655867369 c:\users\never\desktop\new folder\httpserver\tcpsocket.h
+	"socket.h"
+
+1655863816 c:\users\never\desktop\new folder\httpserver\socket.h
+	<string>
+	<exception>
+
+1655864067 c:\users\never\desktop\new folder\httpserver\session.h
+	"tcpsocket.h"
+
+1656733821 c:\users\never\desktop\new folder\httpserver\httpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+
+1585563685 c:\users\never\desktop\new folder\httpserver\random.h
+	<string>
+
+1655863844 source:c:\users\never\desktop\new folder\httpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1656033384 c:\users\never\desktop\new folder\httpserver\servercli.h
+	"cli.h"
+	"httpserver.h"
+
+1655897280 source:c:\users\never\desktop\new folder\httpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1655865227 source:c:\users\never\desktop\new folder\httpserver\session.cpp
+	"session.h"
+
+1655863956 source:c:\users\never\desktop\new folder\httpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1658002951 source:c:\users\never\desktop\new folder\httpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1655864026 source:c:\users\never\desktop\new folder\httpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1655864041 source:c:\users\never\desktop\new folder\httpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1655865253 source:c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1655860219 c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\cli.h
+	<cstdint>
+	<string>
+
+1658072408 source:c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\httpserver.cpp
+	<iostream>
+	<cstring>
+	<sstream>
+	"httpserver.h"
+	"random.h"
+
+1656733861 c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\httpserver.h
+	"tcpserver.h"
+	"httpsession.h"
+
+1656733843 c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1655863736 c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1655867369 c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\tcpsocket.h
+	"socket.h"
+
+1655863816 c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\socket.h
+	<string>
+	<exception>
+
+1655864067 c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\session.h
+	"tcpsocket.h"
+
+1658307823 c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\httpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+
+1585563685 c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\random.h
+	<string>
+
+1655863844 source:c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1656033384 c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\servercli.h
+	"cli.h"
+	"httpserver.h"
+
+1655897280 source:c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1655865227 source:c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\session.cpp
+	"session.h"
+
+1655863956 source:c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1658002951 source:c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1655864026 source:c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1655864041 source:c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1658307548 source:c:\users\never\desktop\nhom11_httpserver_63it2\httpserver\httpsession.cpp
+	<cstring>
+	<iostream>
+	"httpsession.h"
+	<string>
+	<ctime>
+	<fstream>
+
+1655865253 source:c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1655860219 c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\cli.h
+	<cstdint>
+	<string>
+
+1658307828 source:c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\httpserver.cpp
+	<iostream>
+	<cstring>
+	<sstream>
+	"httpserver.h"
+	"random.h"
+
+1656733861 c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\httpserver.h
+	"tcpserver.h"
+	"httpsession.h"
+
+1656733843 c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1655863736 c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1655867369 c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\tcpsocket.h
+	"socket.h"
+
+1655863816 c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\socket.h
+	<string>
+	<exception>
+
+1655864067 c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\session.h
+	"tcpsocket.h"
+
+1658307823 c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\httpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+
+1585563685 c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\random.h
+	<string>
+
+1658307804 source:c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\httpsession.cpp
+	<cstring>
+	<iostream>
+	"httpsession.h"
+	<string>
+	<ctime>
+	<fstream>
+
+1655863844 source:c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1656033384 c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\servercli.h
+	"cli.h"
+	"httpserver.h"
+
+1655897280 source:c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1655865227 source:c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\session.cpp
+	"session.h"
+
+1655863956 source:c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1658002951 source:c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1655864026 source:c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1655864041 source:c:\users\dell\desktop\nhom11_httpserver_63it2\httpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1655865253 source:d:\nhom11_httpserver_63it2\httpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1655860219 d:\nhom11_httpserver_63it2\httpserver\cli.h
+	<cstdint>
+	<string>
+
+1658307828 source:d:\nhom11_httpserver_63it2\httpserver\httpserver.cpp
+	<iostream>
+	<cstring>
+	<sstream>
+	"httpserver.h"
+	"random.h"
+
+1656733861 d:\nhom11_httpserver_63it2\httpserver\httpserver.h
+	"tcpserver.h"
+	"httpsession.h"
+
+1656733843 d:\nhom11_httpserver_63it2\httpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1655863736 d:\nhom11_httpserver_63it2\httpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1655867369 d:\nhom11_httpserver_63it2\httpserver\tcpsocket.h
+	"socket.h"
+
+1655863816 d:\nhom11_httpserver_63it2\httpserver\socket.h
+	<string>
+	<exception>
+
+1655864067 d:\nhom11_httpserver_63it2\httpserver\session.h
+	"tcpsocket.h"
+
+1658307823 d:\nhom11_httpserver_63it2\httpserver\httpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+
+1585563685 d:\nhom11_httpserver_63it2\httpserver\random.h
+	<string>
+
+1655863844 source:d:\nhom11_httpserver_63it2\httpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1656033384 d:\nhom11_httpserver_63it2\httpserver\servercli.h
+	"cli.h"
+	"httpserver.h"
+
+1655897280 source:d:\nhom11_httpserver_63it2\httpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1655865227 source:d:\nhom11_httpserver_63it2\httpserver\session.cpp
+	"session.h"
+
+1655863956 source:d:\nhom11_httpserver_63it2\httpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1658002951 source:d:\nhom11_httpserver_63it2\httpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1655864026 source:d:\nhom11_httpserver_63it2\httpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1655864041 source:d:\nhom11_httpserver_63it2\httpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1681222694 source:d:\nhom11_httpserver_63it2\httpserver\httpsession.cpp
+	<cstring>
+	<iostream>
+	"httpsession.h"
+	<string>
+	<ctime>
+	<fstream>
+
+1687796140 source:c:\users\tranm\onedrive\máy tính\httpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1687796140 c:\users\tranm\onedrive\máy tính\httpserver\cli.h
+	<cstdint>
+	<string>
+
+1687965137 source:c:\users\tranm\onedrive\máy tính\httpserver\httpserver.cpp
+	<iostream>
+	<cstring>
+	<sstream>
+	"httpserver.h"
+	"random.h"
+
+1687962362 c:\users\tranm\onedrive\máy tính\httpserver\httpserver.h
+	"tcpserver.h"
+	"httpsession.h"
+
+1687796140 c:\users\tranm\onedrive\máy tính\httpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1687796140 c:\users\tranm\onedrive\máy tính\httpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1687796140 c:\users\tranm\onedrive\máy tính\httpserver\tcpsocket.h
+	"socket.h"
+
+1687796140 c:\users\tranm\onedrive\máy tính\httpserver\socket.h
+	<string>
+	<exception>
+
+1687796140 c:\users\tranm\onedrive\máy tính\httpserver\session.h
+	"tcpsocket.h"
+
+1687796140 c:\users\tranm\onedrive\máy tính\httpserver\httpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+
+1687796140 c:\users\tranm\onedrive\máy tính\httpserver\random.h
+	<string>
+
+1687965104 source:c:\users\tranm\onedrive\máy tính\httpserver\httpsession.cpp
+	<cstring>
+	<iostream>
+	"httpsession.h"
+	<string>
+	<ctime>
+	<fstream>
+
+1687796140 source:c:\users\tranm\onedrive\máy tính\httpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1687796140 c:\users\tranm\onedrive\máy tính\httpserver\servercli.h
+	"cli.h"
+	"httpserver.h"
+
+1687962327 source:c:\users\tranm\onedrive\máy tính\httpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1687796140 source:c:\users\tranm\onedrive\máy tính\httpserver\session.cpp
+	"session.h"
+
+1687796140 source:c:\users\tranm\onedrive\máy tính\httpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1687796140 source:c:\users\tranm\onedrive\máy tính\httpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1687796140 source:c:\users\tranm\onedrive\máy tính\httpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1687796140 source:c:\users\tranm\onedrive\máy tính\httpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1687780787 source:d:\httpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1687780787 d:\httpserver\cli.h
+	<cstdint>
+	<string>
+
+1687788100 source:d:\httpserver\httpserver.cpp
+	<iostream>
+	<cstring>
+	<sstream>
+	"httpserver.h"
+	"random.h"
+
+1687780787 d:\httpserver\httpserver.h
+	"tcpserver.h"
+	"httpsession.h"
+
+1687780787 d:\httpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1687780787 d:\httpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1687780787 d:\httpserver\tcpsocket.h
+	"socket.h"
+
+1687780787 d:\httpserver\socket.h
+	<string>
+	<exception>
+
+1687780787 d:\httpserver\session.h
+	"tcpsocket.h"
+
+1687793943 d:\httpserver\httpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+
+1687780787 d:\httpserver\random.h
+	<string>
+
+1687780787 source:d:\httpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1687780787 d:\httpserver\servercli.h
+	"cli.h"
+	"httpserver.h"
+
+1687780787 source:d:\httpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1687780787 source:d:\httpserver\session.cpp
+	"session.h"
+
+1687780787 source:d:\httpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1687780787 source:d:\httpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1687780787 source:d:\httpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1687780787 source:d:\httpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1687793048 source:d:\httpserver\httpsession.cpp
+	<cstring>
+	<iostream>
+	"httpsession.h"
+	<string>
+	<ctime>
+	<fstream>
+
